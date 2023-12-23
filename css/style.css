@@ -1,0 +1,108 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600&family=Numans&family=PT+Sans:wght@400;700&family=Poppins:wght@300;400;600&family=Roboto:ital,wght@0,300;0,400;0,500;0,900;1,300&family=Rubik:wght@300;400;500;600&display=swap");
+
+@import url('https://fonts.googleapis.com/css2?family=Bai+Jamjuree:wght@400;500;600&family=Montserrat+Alternates:ital,wght@1,200&family=Poppins&family=Roboto:ital,wght@0,100;0,300;0,500;0,700;0,900;1,100;1,400;1,500;1,700&display=swap');
+::-webkit-scrollbar {
+    width: 5px;
+    overflow-x: none;
+}
+::-webkit-scrollbar-track {
+    /* background-color: #1b1e20; */
+    background: black;
+    margin-block: 0.25em;
+    border-radius: 0.3em;
+}
+::-webkit-scrollbar-thumb {
+    background: linear-gradient(red,blue);
+    border-radius: 50px;
+}
+/* :root {
+    --color-body: #b6cbbe;
+    --color-heading: #eef3db;
+    --color-base: #033f47;
+    --color-base2: #022a30;
+    --color-brand: #e0f780;
+    --color-brand2: #deff58;
+    --sidebar-width: 240px;
+    --font-base: 'LuzSans-Book';
+    --svg-size: 50px;
+} */
+body {
+  /* font-family: Rubik, Poppins; */
+  /* font-family: Poppins, Tahoma; */
+  color:#000;
+}
+
+/* Navbar */
+.navbar{
+  font-family: Poppins, Tahoma;
+  font-weight: 400;
+  font-size: 17px;
+  color: #fff;
+}
+
+.navbar-brand img{
+  width: 300px;
+}
+
+.nav-link, .active{
+  font-weight: 700;
+  position: relative;
+  color: #fff;
+}
+
+.link-custom::after{
+  content: "";
+  width: 0%;
+  height: 3px;
+  border-radius: 100px;
+  background: linear-gradient(60deg, #ff7300ff, #8000ffff);
+  position: absolute;
+  left: 0;
+  color: #fff;
+  top: 110%;
+  transition: all 0.4s;
+}
+
+.link-custom:hover::after{
+  width: 100%;
+}
+
+/* Main */
+.main,.skills{
+  font-family: Lufga, Tahoma;
+}
+
+.la{
+  font-size: 50px;
+}
+
+.coding-icon{
+  font-size: 30px;
+  margin-top: 30px;
+}
+
+.la-hand-peace-o{
+  color: #ff7300ff;
+}
+
+.tabs{
+  margin-top: 1.5em;
+}
+
+/* Content */
+
+.content{
+  background-color: #01031a;
+  color: #ff7300ff;
+  border-top: 5px solid #ff7300ff;
+  padding-top: 50px;
+}
+
+.cards{
+  margin-left: 13%;
+  gap: 50px;
+}
+
+.card{
+  background-color: #ff7300ff;
+}

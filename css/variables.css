@@ -1,0 +1,23 @@
+.text-all{
+    color: #ff7300ff;
+}
+
+.shadow-effect{
+    transition: all 0.5s;
+}
+
+.shadow-effect:hover{
+    box-shadow: -6px 6px 0 0 #ff7300ff;
+}
+
+.card{
+    border: none;
+}
+
+.tabs{
+    color: #ff7300ff;
+}
+
+.footer_icon{
+    width: 50px;
+}
